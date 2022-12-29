@@ -1,4 +1,4 @@
-# Multi-Material-Shape-Optimiztaion-for-Bending-Torsion-of-Rods
+# Multi-Material Shape Optimiztaion for Bending and Torsion of Inextensible Elastic Rods
 
 
 Implementation of a multi-material shape optimization for the cross-section of an inextensible elastic rod with respect to torsional and bending rigidity.
