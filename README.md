@@ -3,7 +3,7 @@
 
 Implementation of a multi-material shape optimization for the cross-section of an inextensible elastic rod with respect to torsional and bending rigidity.
 
-The repo provides the **C-++**–implementation of the numerical experiments conducted in [[1]](#1).
+The repo provides the **C++**–implementation of the numerical experiments conducted in [[1]](#1).
 
 The development of the software in **C++** was done by **<a href = https://aam.uni-freiburg.de/mitarb/wolffvorbeck/index.html>Steve Wolff-Vorbeck<a/>** (**University of Freiburg**) on the basis of a finite element software package created by **Prof. Patrick Dondl** (**University of Freiburg**).
 
