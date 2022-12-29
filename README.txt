@@ -8,14 +8,15 @@ REQUIREMENTS:
 
 
 After compilation using cmake and make, a target called "s2d" is produced 
-which can be executed by: s2d -f [path to]/Square_144K.obj 
+which can be executed by: s2d -f [path to]/circle160K.obj -c [path to]/default1.cfg 
 
-By this the simulation is started on the reference domain Omega=[-1,1]^2.
+By this the simulation is started on a circular reference domain.
 
 The main code of the simulation is provided in the executable 
-file "pde.cpp". Here the relevant parameters are described 
-in lines 16-27, where e.g. the weigthing factors can be changed 
-in order to simulate certain gradient flows. 
+file "pde.cpp". 
+
+The relevant parameters are included via the config file "default1.cfg" where factors can be changed 
+in order to simulate different shape optimization problems.
 
 The default configuration of the weigthing factors is appropriate 
-to the fourth experiment provided in the thesis Section 7.
+to the fourth experiment provided in [1, Section 5].
